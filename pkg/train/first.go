@@ -46,6 +46,5 @@ func DoFirstTest() {
 			result.WriteRune(digit)
 		}
 	}
-
 	fmt.Fprintln(writer, result.String())
 }
